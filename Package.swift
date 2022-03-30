@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "4.50.0"),
-        .package(url: "https://github.com/binarybirds/liquid-kit.git", from: "1.3.2"),
+        .package(url: "https://github.com/sadiq81/liquid-kit.git", from: "1.4.2"),
     ],
     targets: [
         .target(name: "Liquid", dependencies: [
